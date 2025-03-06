@@ -3,7 +3,8 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/docs/",
-  title: "My Awesome Project",
+  head: [['link', { rel: 'icon', href: '/docs/logo.ico' }]],
+  title: "LargeRice16pro's Blog",
   description: "A VitePress Site",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
